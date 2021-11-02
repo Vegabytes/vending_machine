@@ -12,7 +12,7 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path={"/"} render={() => <Vendingmachine />} />
-        <Route path={"/chips"} render={() => <Chips />} />
+        <Route path={"/chips"} render={() => <Chips>hola</Chips>} />
         <Route path={"/sardines"} render={() => <Sardines />} />
         <Route path={"/soda"} render={() => <Soda />} />
       </Switch>
