@@ -35,7 +35,6 @@ class Chips extends Component {
         ));
         return (
             <div className='Chips'>
-                <h1>{this.props.children}</h1>
                 <Message>
                     <h1>bags eaten: {this.state.bags.length}</h1>
                     <button onClick={this.handleClick}>nom nom nom</button>
